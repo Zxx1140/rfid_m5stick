@@ -34,7 +34,7 @@ if (isset($_SESSION['Admin-name'])) {
   <h1 class="slideInDown animated">Please, Login with the Admin E-mail and Password</h1>
   <?php
 // echo 'Argon2i hash: ' . password_hash('123', PASSWORD_ARGON2I);
-echo password_hash("jame123", PASSWORD_DEFAULT);
+// echo password_hash("jame123", PASSWORD_DEFAULT);
 
 ?>
   <h1 class="slideInDown animated" id="reset">Please, Enter your Email to send the reset password link</h1>
